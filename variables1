@@ -1,0 +1,12 @@
+var x = 2
+var y = x        // passing by value
+
+var z = { name:"Bob"} / object
+var q = z             // pointing to the same object by reference
+
+var u = [1,2,3] // array 
+var n = u       // pointing to the same array by reference
+
+u[0] = 3       // changes the first value in the array [3,2,3]
+
+
